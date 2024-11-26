@@ -15,7 +15,7 @@ const Navbar = () => {
   }
 
   return (
-    <AppBar position="static" sx={{ backgroundColor: '#3f51b5', boxShadow: 0, zIndex: 1 }}>
+    <AppBar position="static" sx={{ backgroundColor: '#E02C27', boxShadow: 0, zIndex: 1 }}>
       {/* AppBar cria uma barra de navegação fixa na parte superior */}
       <Container maxWidth="lg">
         {/* Container limita a largura da AppBar para manter a consistência com o layout */}
