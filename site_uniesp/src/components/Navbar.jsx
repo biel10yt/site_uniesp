@@ -15,7 +15,7 @@ const Navbar = () => {
   }
 
   return (
-    <AppBar position="static" sx={{ backgroundColor: '#E02C27', boxShadow: 0, zIndex: 1 }}>
+    <AppBar position="static" sx={{ backgroundColor: '#E02C27', boxShadow: 0, zIndex: 1, borderRadius: '8px' }}>
       {/* AppBar cria uma barra de navegação fixa na parte superior */}
       <Container maxWidth="lg">
         {/* Container limita a largura da AppBar para manter a consistência com o layout */}
@@ -23,7 +23,7 @@ const Navbar = () => {
           {/* Toolbar organiza os itens da AppBar e remove paddings extras com disableGutters */}
           <IconButton edge="start" color="inherit" component={Link} to="/" sx={{ p: 0, position: 'absolute', top: '-10px' }}>
             {/* IconButton usado para a logo com link para a página principal */}
-            <img src="uniesp.jpg" alt="Uniesp Logo" width={80} height={80} />
+            <img src="uniesp.jpg" alt="Uniesp Logo" width={80} height={80}  />
           </IconButton>
           <Box sx={{ display: { xs: 'none', md: 'flex' }, ml: 15 }}>
             {/* Box com display controlado por media queries para esconder/mostrar itens em diferentes tamanhos de tela */}

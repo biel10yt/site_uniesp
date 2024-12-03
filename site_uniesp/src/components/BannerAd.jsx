@@ -17,7 +17,7 @@ const BannerAd = () => {
       <img
         src="/VESTIBULAR.gif"
         alt="Banner do Vestibular"
-        style={{ width: '100%', height: '300px', borderRadius: '8px' }}
+        style={{ width: '100%', height: '300px', borderRadius: '26px', padding: '15px'}}
       />
     </StyledBannerAd>
   )
