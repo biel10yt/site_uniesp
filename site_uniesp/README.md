@@ -30,9 +30,9 @@ In this project, I created a simple solution to provide information and navigati
   - index.css
   - main.jsx
 - **public/**
+  - download.png
   - uniesp.jpg
   - VESTIBULAR.gif
-  - vite.svg
 - **.gitignore**
 - **package.json**
 - **README.md**
